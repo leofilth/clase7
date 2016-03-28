@@ -14,4 +14,12 @@
         ?>
     </ul>
     <p>Ñandú</p>
+    <!--<a href="usando_where/2">Link</a>-->
+    <div class="row">
+        <label>Ingrese ID: </label><input class="form-control" type="text" id="texto" name="ide">
+        <?php
+        //$valor=set_value('ide');
+        ?>
+    </div>
+    <button type="button" class="btn btn-default" onclick="location.href='<?php echo base_url() ?>database/usando_where/<?php echo $valor?>'">Link</button>
 </div>
